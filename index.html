@@ -1,23 +1,7 @@
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Taha Boulaamane – Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-</head>
 <body>
 
+  <!-- Hero Section -->
   <header class="hero">
-    <section id="about" class="about-section">
-  <h2>À propos de moi</h2>
-  <p>Je suis Taha Boulaamane, étudiant en Génie des Procédés Industriels à l'École Mohammadia d’Ingénieurs. 
-  Passionné par le développement web, les interfaces intuitives, l’intelligence artificielle et la résolution de problèmes réels à travers le code.</p>
-
-  <p>Je conçois des applications web modernes et performantes en utilisant HTML, CSS, Flask, Python, et Kotlin. 
-  Mes projets personnels et académiques démontrent mon engagement à créer des solutions utiles et bien construites.</p>
-</section>
     <div class="hero-image">
       <img src="static/profile.jpeg" alt="Photo de Taha Boulaamane">
     </div>
@@ -27,3 +11,40 @@
       <a href="#projects" class="btn">Voir mes projets</a>
     </div>
   </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <h2>À propos de moi</h2>
+    <p>Je suis Taha Boulaamane, étudiant en Génie des Procédés Industriels à l'École Mohammadia d’Ingénieurs. 
+    Passionné par le développement web, les interfaces intuitives, l’intelligence artificielle et la résolution de problèmes réels à travers le code.</p>
+
+    <p>Je conçois des applications web modernes et performantes en utilisant HTML, CSS, Flask, Python, et Kotlin. 
+    Mes projets personnels et académiques démontrent mon engagement à créer des solutions utiles et bien construites.</p>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="project-section">
+    <h2>Mes Projets</h2>
+
+    <div class="project-grid">
+
+      <!-- AITaha -->
+      <div class="project-card">
+        <h3>AITaha</h3>
+        <p>Chatbot personnel basé sur Flask et l’API OpenAI. Ce projet illustre mes compétences en back-end, API, et traitement du langage naturel.</p>
+        <a href="https://github.com/TahaBo04/AITaha" target="_blank" class="btn">Voir sur GitHub</a>
+      </div>
+
+      <!-- GPI Website -->
+      <div class="project-card">
+        <h3>GPI Website</h3>
+        <p>Site web réalisé pour le club Génie des Procédés. Il inclut des pages de cours, projets, stages et événements avec une interface moderne.</p>
+        <a href="https://github.com/TahaBo04/GPI" target="_blank" class="btn">Voir sur GitHub</a>
+      </div>
+
+    </div>
+  </section>
+  <footer class="footer">
+  <p>© 2025 Taha Boulaamane</p>
+  <a href="mailto:taha.boulaamane@student.emi.ac.ma" class="btn">Contactez-moi</a>
+</footer>
