@@ -58,3 +58,22 @@ body {
 .btn:hover {
   background-color: #00c853;
 }
+.about-section {
+  padding: 60px 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.about-section h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+.about-section p {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 15px auto;
+  color: #444;
+  line-height: 1.8;
+}
