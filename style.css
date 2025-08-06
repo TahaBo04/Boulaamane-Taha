@@ -1,0 +1,60 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fff;
+  color: #111;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 60px 20px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #e7f9f2, #ffffff);
+}
+
+.hero-image img {
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #00e676;
+  box-shadow: 0 0 20px rgba(0, 230, 118, 0.4);
+  margin-bottom: 20px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 12px 24px;
+  font-weight: bold;
+  color: #000;
+  background-color: #00e676;
+  border-radius: 6px;
+  text-decoration: none;
+  box-shadow: 0 0 10px #00e676;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #00c853;
+}
