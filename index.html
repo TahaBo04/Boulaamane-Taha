@@ -1,71 +1,353 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Taha Boulaamane – Portfolio</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Boulaamane Taha — Industrial Process Engineering, AI & Data, Automation, Industrial Optimization and Decision Engineering.">
+  <meta name="theme-color" content="#0b1521">
+  <title>Boulaamane Taha | Engineering Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
-
-
 <body>
+  <div class="grain" aria-hidden="true"></div>
 
-  <!-- Hero Section -->
-  <header class="hero">
-    <div class="hero-image">
-      <img src="Static/Profile.jpeg" alt="Photo de Taha Boulaamane">
+  <nav class="site-nav" aria-label="Primary navigation">
+    <a class="brand" href="#top" aria-label="Back to top"><span>BT</span></a>
+    <div class="nav-links">
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a href="#work">Work</a>
+      <a href="#skills">Skills</a>
     </div>
-    <div class="hero-text">
-      <h1>Taha Boulaamane</h1>
-      <p>Développeur Web & Étudiant Ingénieur à l'EMI</p>
-      <a href="#projects" class="btn">Voir mes projets</a>
+    <a class="nav-cta" href="mailto:tahab896@gmail.com">Contact</a>
+  </nav>
+
+  <header class="hero" id="top">
+    <div class="hero-copy reveal">
+      <p class="eyebrow">EMI · Industrial Process Engineering · Rabat, Morocco</p>
+      <h1>Engineering systems.<br><span>Building decisions.</span></h1>
+      <p class="hero-lead">
+        I work where process engineering, industrial optimization, data, AI and automation meet —
+        from plant design and energy systems to investment studies and production-grade digital products.
+      </p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#work">Explore selected work</a>
+        <a class="button button-ghost" href="https://github.com/TahaBo04" target="_blank" rel="noreferrer">GitHub profile</a>
+      </div>
+      <div class="hero-facts" aria-label="Highlights">
+        <div><strong>2</strong><span>industrial internships</span></div>
+        <div><strong>4</strong><span>engineering domains</span></div>
+        <div><strong>100k</strong><span>t/y NH₃ design basis</span></div>
+      </div>
+    </div>
+
+    <div class="hero-visual reveal">
+      <div class="portrait-frame">
+        <img src="Static/hero.webp" alt="Portrait of Boulaamane Taha in EMI uniform">
+      </div>
+      <div class="portrait-note">
+        <span class="status-dot"></span>
+        Final-year engineering cycle · EMI
+      </div>
     </div>
   </header>
 
-  <!-- About Section -->
-  <section id="about" class="about-section">
-    <h2>À propos de moi</h2>
-    <p>Je suis Taha Boulaamane, étudiant en Génie des Procédés Industriels à l'École Mohammadia d’Ingénieurs. 
-    Passionné par le développement web, les interfaces intuitives, l’intelligence artificielle et la résolution de problèmes réels à travers le code.</p>
+  <main>
+    <section class="section about" id="about">
+      <div class="section-kicker">01 · Profile</div>
+      <div class="about-grid">
+        <div class="about-copy reveal">
+          <h2>A multidisciplinary engineering profile built around one idea: <span>make complexity useful.</span></h2>
+          <p>
+            I am an engineering student in <strong>Génie des Procédés Industriels</strong> at École Mohammadia d’Ingénieurs.
+            My work moves between process design, industrial performance, control, data science, AI-enabled automation,
+            feasibility analysis and operational decision-making.
+          </p>
+          <p>
+            I am most interested in problems where a technical model must become an operational decision:
+            how to improve a process, justify an investment, reduce risk, automate a workflow, or turn data into a reliable tool.
+          </p>
+        </div>
+        <figure class="identity-card reveal">
+          <img src="Static/emi.webp" alt="Boulaamane Taha at EMI">
+          <figcaption>
+            <span>Engineering formation</span>
+            <strong>École Mohammadia d’Ingénieurs</strong>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
 
-    <p>Je conçois des applications web modernes et performantes en utilisant HTML, CSS, Flask, Python, et Kotlin. 
-    Mes projets personnels et académiques démontrent mon engagement à créer des solutions utiles et bien construites.</p>
-  </section>
+    <section class="section expertise" id="expertise">
+      <div class="section-kicker">02 · Expertise</div>
+      <div class="section-heading reveal">
+        <h2>Four lenses, one engineering mindset.</h2>
+        <p>My projects are intentionally cross-disciplinary: process models inform optimization, data supports decisions, and software turns analysis into usable systems.</p>
+      </div>
+      <div class="expertise-grid">
+        <article class="expertise-card reveal">
+          <span class="card-index">A</span>
+          <h3>Process & Industrial Systems</h3>
+          <p>Mass and energy balances, thermodynamics, reaction engineering, unit operations, equipment sizing, flowsheets, process economics and energy integration.</p>
+        </article>
+        <article class="expertise-card reveal">
+          <span class="card-index">B</span>
+          <h3>AI, Data & Software</h3>
+          <p>Python, machine learning, analytics, SQL, dashboards, APIs and full-stack products designed around real operational workflows.</p>
+        </article>
+        <article class="expertise-card reveal">
+          <span class="card-index">C</span>
+          <h3>Control & Optimization</h3>
+          <p>PID, GPC/CARIMA, predictive modeling, multi-objective optimization, industrial performance, KPI logic and continuous improvement.</p>
+        </article>
+        <article class="expertise-card reveal">
+          <span class="card-index">D</span>
+          <h3>Risk, Crisis & Decision Engineering</h3>
+          <p>Feasibility, techno-economic screening, root-cause analysis, Pareto, Ishikawa, PDCA, operational risk and business-resilience planning.</p>
+        </article>
+      </div>
+    </section>
 
-  <!-- Projects Section -->
-  <section id="projects" class="project-section">
-    <h2>Mes Projets</h2>
+    <section class="section experience" id="experience">
+      <div class="section-kicker">03 · Experience</div>
+      <div class="experience-layout">
+        <div class="section-heading sticky-heading reveal">
+          <h2>Industry exposure with a decision-oriented focus.</h2>
+          <p>From production-floor observation to project screening and AI automation studies.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-meta"><span>Jul–Aug 2026</span><span>Rabat</span></div>
+            <h3>Project Studies Intern</h3>
+            <h4>Ministry of Industry & Trade · Mechanical & Technical Division</h4>
+            <p>Evaluated technical projects to support investment decisions through feasibility and techno-economic analysis.</p>
+            <ul>
+              <li>Studied multiple AI-automation opportunities: operational need, functional architecture, expected gains, costs, risks and viability.</li>
+              <li>Structured technical recommendations for decision-makers instead of treating automation as a purely software problem.</li>
+            </ul>
+          </article>
 
-    <div class="project-grid">
+          <article class="timeline-item reveal">
+            <div class="timeline-meta"><span>Jul–Aug 2025</span><span>Salé</span></div>
+            <h3>Process Engineering Intern</h3>
+            <h4>SONACOS</h4>
+            <p>Worked around seed-conditioning operations, laboratory quality control, equipment and industrial HSE/ONSSA compliance.</p>
+            <ul>
+              <li>Observed process flows and quality tests including moisture, density and purity.</li>
+              <li>Proposed an AI-assisted approach for automated defect detection.</li>
+            </ul>
+          </article>
 
-      <!-- AITaha -->
-      <div class="project-card">
-        <h3>AITaha</h3>
-        <p>Chatbot personnel basé sur Flask et l’API OpenAI. Ce projet illustre mes compétences en back-end, API, et traitement du langage naturel.</p>
-        <a href="https://github.com/TahaBo04/AITaha" target="_blank" class="btn">Voir sur GitHub</a>
+          <article class="timeline-item reveal">
+            <div class="timeline-meta"><span>2025–Present</span><span>EMI</span></div>
+            <h3>Head of Project Unit</h3>
+            <h4>EMI Process Club</h4>
+            <p>Coordinates multidisciplinary projects spanning process engineering, data and innovation, with responsibility for planning, deliverables and technical presentation.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="work">
+      <div class="section-kicker">04 · Selected Work</div>
+      <div class="section-heading project-heading reveal">
+        <div>
+          <h2>Projects across process, AI, control and resilience.</h2>
+          <p>Selected for technical depth, decision value and range — not simply for repository count.</p>
+        </div>
+        <div class="filters" role="group" aria-label="Filter projects">
+          <button class="filter active" data-filter="all">All</button>
+          <button class="filter" data-filter="process">Process</button>
+          <button class="filter" data-filter="software">AI / Software</button>
+          <button class="filter" data-filter="control">Control</button>
+          <button class="filter" data-filter="risk">Risk / Strategy</button>
+        </div>
       </div>
 
-      <!-- GPI Website -->
-      <div class="project-card">
-        <h3>GPI Website</h3>
-        <p>Site web réalisé pour le club Génie des Procédés. Il inclut des pages de cours, projets, stages et événements avec une interface moderne.</p>
-        <a href="https://github.com/TahaBo04/GPI" target="_blank" class="btn">Voir sur GitHub</a>
+      <div class="featured-project project-card reveal" data-category="process control">
+        <div class="featured-copy">
+          <div class="project-topline">
+            <span class="project-number">01</span>
+            <span class="project-type">Process Design · Energy · Optimization</span>
+          </div>
+          <h3>Ammonia Synthesis Unit — 100,000 t/y</h3>
+          <p>
+            Interactive engineering model for an NH₃ synthesis loop using three adiabatic catalytic beds with intercooling,
+            material and energy balances, thermodynamic/kinetic views, catalyst estimates, energy recovery and economic screening.
+          </p>
+          <div class="metric-row">
+            <div><strong>122.5 bar</strong><span>reference pressure</span></div>
+            <div><strong>8,256 h/y</strong><span>operating basis</span></div>
+            <div><strong>1.474 MWe</strong><span>potential recovery</span></div>
+          </div>
+          <div class="project-links">
+            <a href="https://TahaBo04.github.io/ammonia-synthesis-dashboard/" target="_blank" rel="noreferrer">Live engineering dashboard ↗</a>
+            <a href="https://github.com/TahaBo04/ammonia-synthesis-dashboard" target="_blank" rel="noreferrer">Repository ↗</a>
+          </div>
+        </div>
+        <div class="featured-art" aria-hidden="true">
+          <span>NH₃</span>
+          <div class="process-line"><i></i><i></i><i></i></div>
+          <small>3-bed synthesis · heat recovery · economics</small>
+        </div>
       </div>
 
-      <!-- Trading ops control tower -->
-      <div class="project-card">
-        <h3>Trading ops control tower</h3>
-        <p>Développement d’une plateforme full-stack de Trading Ops Control Tower (TOCT) avec FastAPI et Next.js, intégrant l’analyse des risques (VaR & ES), l’enregistrement des événements opérationnels et la génération de rapports de conformité. Le système connecte un backend FastAPI à un frontend moderne basé sur React, permettant des calculs de risques financiers en temps réel et des workflows de conformité prêts pour l’audit.</p>
-        <a href="https://github.com/TahaBo04/Toct" target="_blank" class="btn">Voir sur GitHub</a>
-      </div>
+      <div class="project-grid">
+        <article class="project-card reveal" data-category="process">
+          <div class="project-topline"><span class="project-number">02</span><span class="project-type">Process Engineering</span></div>
+          <h3>Phosphoric Acid Manufacturing Unit</h3>
+          <p>Second-year integrated process-design project: process selection, flowsheet architecture, material/energy balances, reaction–separation logic, preliminary sizing and plant-performance analysis.</p>
+          <div class="tag-row"><span>H₃PO₄</span><span>Flowsheet</span><span>Balances</span><span>Equipment</span></div>
+        </article>
 
-    </div>
-  </section>
-  <footer class="footer">
-  <p>© 2025 Taha Boulaamane</p>
-  <a href="mailto:taha.boulaamane@student.emi.ac.ma" class="btn">Contactez-moi</a>
-</footer>
+        <article class="project-card reveal" data-category="process control software">
+          <div class="project-topline"><span class="project-number">03</span><span class="project-type">ML · Energy · Control</span></div>
+          <h3>Cooling Tower Optimization</h3>
+          <p>Machine-learning and PID optimization project using industrial operating data to predict efficiency and balance energy, CO₂ and water use.</p>
+          <div class="project-stat"><strong>R² ≈ 0.92</strong><span>Random Forest efficiency model</span></div>
+          <div class="project-links"><a href="https://github.com/TahaBo04/Cooling-Tower-Optimization" target="_blank" rel="noreferrer">Repository ↗</a></div>
+        </article>
+
+        <article class="project-card reveal" data-category="risk process">
+          <div class="project-topline"><span class="project-number">04</span><span class="project-type">Feasibility · Energy</span></div>
+          <h3>Green Ammonia — Tarfaya Feasibility Study</h3>
+          <p>Site-oriented feasibility screening for an ammonia project in the Tarfaya region, combining process-chain definition, utilities/resources, technical constraints, cost logic, risks and investment decision criteria.</p>
+          <div class="tag-row"><span>Feasibility</span><span>Energy</span><span>CAPEX/OPEX</span><span>Risk</span></div>
+        </article>
+
+        <article class="project-card reveal" data-category="risk process">
+          <div class="project-topline"><span class="project-number">05</span><span class="project-type">Feasibility · Process</span></div>
+          <h3>Sulfuric Acid Plant — H₂SO₄</h3>
+          <p>Technical and economic feasibility study for sulfuric-acid production, connecting process configuration, conversion logic, material/energy balances, heat recovery, equipment considerations and investment screening.</p>
+          <div class="tag-row"><span>H₂SO₄</span><span>Techno-economics</span><span>Heat recovery</span></div>
+        </article>
+
+        <article class="project-card reveal" data-category="risk">
+          <div class="project-topline"><span class="project-number">06</span><span class="project-type">Crisis Management · Resilience</span></div>
+          <h3>Cyberattack Crisis Case Study</h3>
+          <p>Response and recovery plan for a company hit by phishing, DDoS, data leakage and server disruption, with explicit treatment of financial and reputational damage.</p>
+          <div class="method-flow"><span>Pareto</span><b>→</b><span>Ishikawa</span><b>→</b><span>PDCA</span></div>
+          <p class="microcopy">Focus: root causes, containment priorities, service recovery, stakeholder confidence and recurrence prevention.</p>
+        </article>
+
+        <article class="project-card reveal" data-category="software">
+          <div class="project-topline"><span class="project-number">07</span><span class="project-type">B2B · Security · Full Stack</span></div>
+          <h3>Ideas2Invest</h3>
+          <p>Confidentiality-first B2B platform connecting innovators and investors with KYC, three-layer idea visibility, digital NDA flows, role-based access and audit logging.</p>
+          <div class="tag-row"><span>Flask</span><span>Python</span><span>KYC</span><span>RBAC</span></div>
+          <div class="project-links"><a href="https://github.com/TahaBo04/Ideas2invest" target="_blank" rel="noreferrer">Repository ↗</a></div>
+        </article>
+
+        <article class="project-card reveal" data-category="software">
+          <div class="project-topline"><span class="project-number">08</span><span class="project-type">AI · Backend · Quant</span></div>
+          <h3>STRATIX AI</h3>
+          <p>FastAPI system that converts natural-language trading strategies into validated structured specifications and deterministic historical backtests — separating AI interpretation from execution safety.</p>
+          <div class="tag-row"><span>FastAPI</span><span>OpenAI API</span><span>Validation</span><span>Backtesting</span></div>
+          <div class="project-links"><a href="https://github.com/TahaBo04/stratix-ai-api" target="_blank" rel="noreferrer">API ↗</a><a href="https://github.com/TahaBo04/stratix-ai-web" target="_blank" rel="noreferrer">Web ↗</a></div>
+        </article>
+
+        <article class="project-card reveal" data-category="software">
+          <div class="project-topline"><span class="project-number">09</span><span class="project-type">Marketplace · Operations</span></div>
+          <h3>Briefvora</h3>
+          <p>Marketplace for brands and creators with public/private briefs, offers, order workflows, bank-transfer verification, operations controls, security tests and PostgreSQL-backed deployment.</p>
+          <div class="tag-row"><span>Flask</span><span>PostgreSQL</span><span>Render</span><span>Security</span></div>
+          <div class="project-links"><a href="https://briefvora.onrender.com" target="_blank" rel="noreferrer">Live ↗</a><a href="https://github.com/TahaBo04/Viral_Place" target="_blank" rel="noreferrer">Repository ↗</a></div>
+        </article>
+
+        <article class="project-card reveal" data-category="software">
+          <div class="project-topline"><span class="project-number">10</span><span class="project-type">Academic Platform · Flask</span></div>
+          <h3>GPI Platform</h3>
+          <p>Modular Flask platform for EMI’s Process Engineering community with project management, resources, teams, partner/internship information and protected administration workflows.</p>
+          <div class="tag-row"><span>Flask</span><span>Blueprints</span><span>App Factory</span><span>Security</span></div>
+          <div class="project-links"><a href="https://github.com/TahaBo04/GPI" target="_blank" rel="noreferrer">Repository ↗</a></div>
+        </article>
+
+        <article class="project-card reveal" data-category="control software">
+          <div class="project-topline"><span class="project-number">11</span><span class="project-type">Advanced Control · Educational Tool</span></div>
+          <h3>GPC / Bezout Matrix Builder</h3>
+          <p>Calculator for Generalized Predictive Control using ARX/CARIMA and Bezout/Diophantine methods, supporting SISO, MISO, SIMO and MIMO prediction structures.</p>
+          <div class="tag-row"><span>GPC</span><span>CARIMA</span><span>Bezout</span><span>MIMO</span></div>
+          <div class="project-links"><a href="https://github.com/TahaBo04/gpc-bezout-builder" target="_blank" rel="noreferrer">Repository ↗</a></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section visual-note">
+      <div class="section-kicker">05 · Visual Notes</div>
+      <div class="visual-grid">
+        <div class="visual-copy reveal">
+          <h2>Technical discipline, with room for personality.</h2>
+          <p>I like portfolios that show the work without flattening the person behind it. These images are part of the same story: engineering formation, experimentation and a little visual play.</p>
+        </div>
+        <figure class="art-tile reveal"><img src="Static/dove.webp" alt="Stylized portrait with a white dove"><figcaption>Portrait study</figcaption></figure>
+        <figure class="art-tile reveal"><img src="Static/clay.webp" alt="Clay-style miniature portrait"><figcaption>Miniature study</figcaption></figure>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-kicker">06 · Toolkit</div>
+      <div class="skills-grid">
+        <div class="skill-column reveal">
+          <h3>Process Engineering</h3>
+          <p>Material & energy balances · Thermodynamics · Reaction engineering · Unit operations · Process simulation · Equipment sizing · Heat integration · Quality & HSE</p>
+        </div>
+        <div class="skill-column reveal">
+          <h3>Industrial Performance</h3>
+          <p>Lean thinking · DMAIC / Six Sigma · KPI systems · Continuous improvement · Feasibility · Techno-economic analysis · Pareto · Ishikawa · PDCA</p>
+        </div>
+        <div class="skill-column reveal">
+          <h3>Data & AI</h3>
+          <p>Python · Pandas · NumPy · Scikit-learn · SQL · EDA · Random Forest · Regression · Feature importance · OpenAI API · Decision dashboards</p>
+        </div>
+        <div class="skill-column reveal">
+          <h3>Software & Control</h3>
+          <p>Flask · FastAPI · HTML/CSS/JavaScript · Git/GitHub · PostgreSQL · SQLite · Vercel · Render · MATLAB · PID · GPC/CARIMA</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section education">
+      <div class="section-kicker">07 · Formation</div>
+      <div class="education-grid">
+        <div class="education-main reveal">
+          <span>2024–2027</span>
+          <h3>Engineering Degree — Génie des Procédés Industriels</h3>
+          <p>École Mohammadia d’Ingénieurs (EMI), Rabat</p>
+        </div>
+        <div class="education-item reveal">
+          <span>2022–2024</span>
+          <h3>CPGE — Physique & Sciences de l’Ingénieur (PSI)</h3>
+          <p>Lycée Ibn Ghazi, Rabat</p>
+        </div>
+        <div class="education-item reveal">
+          <span>2026</span>
+          <h3>Selected credentials</h3>
+          <p>IBM Data Analyst Professional Certificate · BCG Strategy Consulting Virtual Experience · JNITI Innovation Encouragement Prize</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-panel reveal">
+        <p class="eyebrow">Open to engineering challenges</p>
+        <h2>Process. Data. Optimization. Decisions.</h2>
+        <p>For internships, engineering projects or technical collaboration, the fastest route is email or GitHub.</p>
+        <div class="contact-actions">
+          <a class="button button-light" href="mailto:tahab896@gmail.com">tahab896@gmail.com</a>
+          <a class="button button-outline-light" href="https://github.com/TahaBo04" target="_blank" rel="noreferrer">github.com/TahaBo04</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>© <span id="year"></span> Boulaamane Taha</p>
+    <p>Industrial Process Engineering · AI & Data · Optimization</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
-  
